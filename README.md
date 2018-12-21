@@ -46,3 +46,16 @@ pod 'ZLHTTPSessionManager', '~> 0.0.1'
         ///处理结果
     }];
 ```
+
+---
+### 重大迭代跟踪
+`~> 0.0.1` 基本功能已完善
+
+---
+### FAQ
+- 搜索不到？
+    - 终端执行
+    ```rm ~/Library/Caches/CocoaPods/search_index.json```
+    - 重新```pod search ZLHTTPSessionManager```
+- 安装失败？
+    - 查看你的当前项目的podfile里是否已经安装了AFNetworking，如果有，请将它删除，然后重试。
