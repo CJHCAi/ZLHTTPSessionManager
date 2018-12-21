@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "ZLHTTPSessionManager.h"
+#import <AFNetworking/AFNetworking.h>
 
-@class AFHTTPSessionManager;
 @interface ZLHTTPRequestProcess : NSObject
 
 ///请求的管理对象

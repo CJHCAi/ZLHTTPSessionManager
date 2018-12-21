@@ -9,7 +9,6 @@
 #import "ZLHTTPRequestProcess.h"
 #import "ZLHTTPSucceedProcess.h"
 #import "ZLHTTPErrorProcess.h"
-#import <AFNetworking.h>
 
 @implementation ZLHTTPRequestProcess
 

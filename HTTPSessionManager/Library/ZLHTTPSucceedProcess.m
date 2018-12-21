@@ -10,7 +10,7 @@
 #import "ZLHTTPRequestProcess.h"
 #import "NSDictionary+ZLHttpDataProcess.h"
 #import "NSArray+ZLHttpDataProcess.h"
-#import <AFHTTPSessionManager.h>
+#import <AFNetworking/AFNetworking.h>
 
 @implementation ZLHTTPSucceedProcess
 

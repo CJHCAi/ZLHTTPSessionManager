@@ -8,7 +8,7 @@
 
 #import "ZLHTTPErrorProcess.h"
 #import "ZLHTTPRequestProcess.h"
-#import <AFHTTPSessionManager.h>
+#import <AFNetworking/AFNetworking.h>
 
 @implementation ZLHTTPErrorProcess
 
