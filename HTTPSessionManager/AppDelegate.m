@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ZLHTTPSessionManager.h"
 
 @interface AppDelegate ()
 
@@ -19,10 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    //配置基本信息
-    [ZLHTTPSessionManager configDebugUrlPrefix:@"调试环境前缀" OnlineUrlPrefix:@"发布环境前缀" Online:NO ShowLogs:YES NetworkState:^(ZLHTTPSessionNetworkStatus state) {
-        //网络状态改变后的回调
-    }];
+//    //配置基本信息
+//    [ZLHTTPSessionManager configDebugUrlPrefix:@"调试环境前缀" OnlineUrlPrefix:@"发布环境前缀" Online:NO ShowLogs:YES NetworkState:^(ZLHTTPSessionNetworkStatus state) {
+//        //网络状态改变后的回调
+//    }];
     
     return YES;
 }

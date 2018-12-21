@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.exclude_files = ""
 
   s.framework  = "UIKit","Foundation"
-  s.dependency = "AFNetworking", "~> 3.2.1"
+  s.dependency "AFNetworking", "~> 3.2.1"
 
 end
