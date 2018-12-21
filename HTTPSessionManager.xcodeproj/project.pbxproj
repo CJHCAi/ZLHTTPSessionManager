@@ -20,6 +20,7 @@
 		44C7C0EB21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0EA21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m */; };
 		44C7C0EE21CB9D7C00146C02 /* ZLHTTPErrorProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0ED21CB9D7C00146C02 /* ZLHTTPErrorProcess.m */; };
 		44C7C0F121CB9E1100146C02 /* ZLHTTPRequestProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0F021CB9E1100146C02 /* ZLHTTPRequestProcess.m */; };
+		44C7C0F321CCC07800146C02 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 44C7C0F221CCC07800146C02 /* README.md */; };
 		ABED7F76FEAACCC5AA7AA8FE /* libPods-HTTPSessionManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D77C1C69562BC011F4103C37 /* libPods-HTTPSessionManager.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		44C7C0ED21CB9D7C00146C02 /* ZLHTTPErrorProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPErrorProcess.m; sourceTree = "<group>"; };
 		44C7C0EF21CB9E1100146C02 /* ZLHTTPRequestProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLHTTPRequestProcess.h; sourceTree = "<group>"; };
 		44C7C0F021CB9E1100146C02 /* ZLHTTPRequestProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPRequestProcess.m; sourceTree = "<group>"; };
+		44C7C0F221CCC07800146C02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2072CEEEECFE7CD269F2154 /* Pods-HTTPSessionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPSessionManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPSessionManager/Pods-HTTPSessionManager.release.xcconfig"; sourceTree = "<group>"; };
 		D77C1C69562BC011F4103C37 /* libPods-HTTPSessionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTTPSessionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 		44C7C0B721CB938400146C02 = {
 			isa = PBXGroup;
 			children = (
+				44C7C0F221CCC07800146C02 /* README.md */,
 				44C7C0C221CB938400146C02 /* HTTPSessionManager */,
 				44C7C0C121CB938400146C02 /* Products */,
 				815E17AA9F01A593B5295338 /* Pods */,
@@ -198,6 +201,7 @@
 			files = (
 				44C7C0D021CB938600146C02 /* LaunchScreen.storyboard in Resources */,
 				44C7C0CD21CB938600146C02 /* Assets.xcassets in Resources */,
+				44C7C0F321CCC07800146C02 /* README.md in Resources */,
 				44C7C0CB21CB938400146C02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

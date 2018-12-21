@@ -67,7 +67,7 @@
     [reachabilityManager startMonitoring];
     __weak typeof(manager)weakManager = manager;
     [reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-        weakManager.delegate.networkStatus = [[NSString stringWithFormat:@"%ld",status] integerValue];
+        weakManager.delegate.networkStatus = [[NSString stringWithFormat:@"%ld",(long)status] integerValue];
         if (networkComplete) {
             networkComplete(weakManager.delegate.networkStatus);
         }

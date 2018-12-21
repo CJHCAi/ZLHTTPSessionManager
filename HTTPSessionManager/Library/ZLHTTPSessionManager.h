@@ -42,6 +42,9 @@ typedef NS_ENUM(NSInteger, ZLHTTPSessionNetworkStatus) {
 ///当前环境
 @property (nonatomic,unsafe_unretained,readonly) BOOL online;
 
+///获取实例
++ (instancetype)shared;
+
 /**AppDelegate配置项
  *@param debugPrefix 调试时的前缀
  *@param onlinePrefix 发布时的前缀
