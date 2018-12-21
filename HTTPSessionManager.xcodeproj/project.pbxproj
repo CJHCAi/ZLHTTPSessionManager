@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C7C0C521CB938400146C02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0C421CB938400146C02 /* AppDelegate.m */; };
+		44C7C0C821CB938400146C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0C721CB938400146C02 /* ViewController.m */; };
+		44C7C0CB21CB938400146C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C7C0C921CB938400146C02 /* Main.storyboard */; };
+		44C7C0CD21CB938600146C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C7C0CC21CB938600146C02 /* Assets.xcassets */; };
+		44C7C0D021CB938600146C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C7C0CE21CB938600146C02 /* LaunchScreen.storyboard */; };
+		44C7C0D321CB938600146C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0D221CB938600146C02 /* main.m */; };
+		44C7C0DE21CB959200146C02 /* ZLHTTPFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0DB21CB959200146C02 /* ZLHTTPFileModel.m */; };
+		44C7C0DF21CB959200146C02 /* ZLHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0DC21CB959200146C02 /* ZLHTTPSessionManager.m */; };
+		44C7C0E521CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0E421CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.m */; };
+		44C7C0E821CB991000146C02 /* NSArray+ZLHttpDataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0E721CB991000146C02 /* NSArray+ZLHttpDataProcess.m */; };
+		44C7C0EB21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0EA21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m */; };
+		44C7C0EE21CB9D7C00146C02 /* ZLHTTPErrorProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0ED21CB9D7C00146C02 /* ZLHTTPErrorProcess.m */; };
+		44C7C0F121CB9E1100146C02 /* ZLHTTPRequestProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C0F021CB9E1100146C02 /* ZLHTTPRequestProcess.m */; };
+		ABED7F76FEAACCC5AA7AA8FE /* libPods-HTTPSessionManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D77C1C69562BC011F4103C37 /* libPods-HTTPSessionManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29D83D2287FF0F7D53600B60 /* Pods-HTTPSessionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPSessionManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPSessionManager/Pods-HTTPSessionManager.debug.xcconfig"; sourceTree = "<group>"; };
+		44C7C0C021CB938400146C02 /* HTTPSessionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPSessionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C7C0C321CB938400146C02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44C7C0C421CB938400146C02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44C7C0C621CB938400146C02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44C7C0C721CB938400146C02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44C7C0CA21CB938400146C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44C7C0CC21CB938600146C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C7C0CF21CB938600146C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44C7C0D121CB938600146C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C7C0D221CB938600146C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44C7C0DA21CB959200146C02 /* ZLHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLHTTPSessionManager.h; sourceTree = "<group>"; };
+		44C7C0DB21CB959200146C02 /* ZLHTTPFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPFileModel.m; sourceTree = "<group>"; };
+		44C7C0DC21CB959200146C02 /* ZLHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPSessionManager.m; sourceTree = "<group>"; };
+		44C7C0DD21CB959200146C02 /* ZLHTTPFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLHTTPFileModel.h; sourceTree = "<group>"; };
+		44C7C0E321CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZLHttpDataProcess.h"; sourceTree = "<group>"; };
+		44C7C0E421CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZLHttpDataProcess.m"; sourceTree = "<group>"; };
+		44C7C0E621CB991000146C02 /* NSArray+ZLHttpDataProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZLHttpDataProcess.h"; sourceTree = "<group>"; };
+		44C7C0E721CB991000146C02 /* NSArray+ZLHttpDataProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZLHttpDataProcess.m"; sourceTree = "<group>"; };
+		44C7C0E921CB9D5E00146C02 /* ZLHTTPSucceedProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLHTTPSucceedProcess.h; sourceTree = "<group>"; };
+		44C7C0EA21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPSucceedProcess.m; sourceTree = "<group>"; };
+		44C7C0EC21CB9D7C00146C02 /* ZLHTTPErrorProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLHTTPErrorProcess.h; sourceTree = "<group>"; };
+		44C7C0ED21CB9D7C00146C02 /* ZLHTTPErrorProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPErrorProcess.m; sourceTree = "<group>"; };
+		44C7C0EF21CB9E1100146C02 /* ZLHTTPRequestProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLHTTPRequestProcess.h; sourceTree = "<group>"; };
+		44C7C0F021CB9E1100146C02 /* ZLHTTPRequestProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHTTPRequestProcess.m; sourceTree = "<group>"; };
+		B2072CEEEECFE7CD269F2154 /* Pods-HTTPSessionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTTPSessionManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTTPSessionManager/Pods-HTTPSessionManager.release.xcconfig"; sourceTree = "<group>"; };
+		D77C1C69562BC011F4103C37 /* libPods-HTTPSessionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTTPSessionManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C7C0BD21CB938400146C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABED7F76FEAACCC5AA7AA8FE /* libPods-HTTPSessionManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C7C0B721CB938400146C02 = {
+			isa = PBXGroup;
+			children = (
+				44C7C0C221CB938400146C02 /* HTTPSessionManager */,
+				44C7C0C121CB938400146C02 /* Products */,
+				815E17AA9F01A593B5295338 /* Pods */,
+				8A8D023115B8C2CF4A35BCBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44C7C0C121CB938400146C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C7C0C021CB938400146C02 /* HTTPSessionManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C7C0C221CB938400146C02 /* HTTPSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				44C7C0D921CB950800146C02 /* Library */,
+				44C7C0C321CB938400146C02 /* AppDelegate.h */,
+				44C7C0C421CB938400146C02 /* AppDelegate.m */,
+				44C7C0C621CB938400146C02 /* ViewController.h */,
+				44C7C0C721CB938400146C02 /* ViewController.m */,
+				44C7C0C921CB938400146C02 /* Main.storyboard */,
+				44C7C0CC21CB938600146C02 /* Assets.xcassets */,
+				44C7C0CE21CB938600146C02 /* LaunchScreen.storyboard */,
+				44C7C0D121CB938600146C02 /* Info.plist */,
+				44C7C0D221CB938600146C02 /* main.m */,
+			);
+			path = HTTPSessionManager;
+			sourceTree = "<group>";
+		};
+		44C7C0D921CB950800146C02 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				44C7C0DA21CB959200146C02 /* ZLHTTPSessionManager.h */,
+				44C7C0DC21CB959200146C02 /* ZLHTTPSessionManager.m */,
+				44C7C0EF21CB9E1100146C02 /* ZLHTTPRequestProcess.h */,
+				44C7C0F021CB9E1100146C02 /* ZLHTTPRequestProcess.m */,
+				44C7C0E921CB9D5E00146C02 /* ZLHTTPSucceedProcess.h */,
+				44C7C0EA21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m */,
+				44C7C0EC21CB9D7C00146C02 /* ZLHTTPErrorProcess.h */,
+				44C7C0ED21CB9D7C00146C02 /* ZLHTTPErrorProcess.m */,
+				44C7C0DD21CB959200146C02 /* ZLHTTPFileModel.h */,
+				44C7C0DB21CB959200146C02 /* ZLHTTPFileModel.m */,
+				44C7C0E321CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.h */,
+				44C7C0E421CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.m */,
+				44C7C0E621CB991000146C02 /* NSArray+ZLHttpDataProcess.h */,
+				44C7C0E721CB991000146C02 /* NSArray+ZLHttpDataProcess.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		815E17AA9F01A593B5295338 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29D83D2287FF0F7D53600B60 /* Pods-HTTPSessionManager.debug.xcconfig */,
+				B2072CEEEECFE7CD269F2154 /* Pods-HTTPSessionManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A8D023115B8C2CF4A35BCBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77C1C69562BC011F4103C37 /* libPods-HTTPSessionManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C7C0BF21CB938400146C02 /* HTTPSessionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C7C0D621CB938600146C02 /* Build configuration list for PBXNativeTarget "HTTPSessionManager" */;
+			buildPhases = (
+				17920627321A8E6DBA96CA8D /* [CP] Check Pods Manifest.lock */,
+				44C7C0BC21CB938400146C02 /* Sources */,
+				44C7C0BD21CB938400146C02 /* Frameworks */,
+				44C7C0BE21CB938400146C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPSessionManager;
+			productName = HTTPSessionManager;
+			productReference = 44C7C0C021CB938400146C02 /* HTTPSessionManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C7C0B821CB938400146C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "赵磊";
+				TargetAttributes = {
+					44C7C0BF21CB938400146C02 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 44C7C0BB21CB938400146C02 /* Build configuration list for PBXProject "HTTPSessionManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C7C0B721CB938400146C02;
+			productRefGroup = 44C7C0C121CB938400146C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C7C0BF21CB938400146C02 /* HTTPSessionManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C7C0BE21CB938400146C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C7C0D021CB938600146C02 /* LaunchScreen.storyboard in Resources */,
+				44C7C0CD21CB938600146C02 /* Assets.xcassets in Resources */,
+				44C7C0CB21CB938400146C02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17920627321A8E6DBA96CA8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTTPSessionManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C7C0BC21CB938400146C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C7C0E821CB991000146C02 /* NSArray+ZLHttpDataProcess.m in Sources */,
+				44C7C0C821CB938400146C02 /* ViewController.m in Sources */,
+				44C7C0EB21CB9D5E00146C02 /* ZLHTTPSucceedProcess.m in Sources */,
+				44C7C0EE21CB9D7C00146C02 /* ZLHTTPErrorProcess.m in Sources */,
+				44C7C0D321CB938600146C02 /* main.m in Sources */,
+				44C7C0C521CB938400146C02 /* AppDelegate.m in Sources */,
+				44C7C0DF21CB959200146C02 /* ZLHTTPSessionManager.m in Sources */,
+				44C7C0F121CB9E1100146C02 /* ZLHTTPRequestProcess.m in Sources */,
+				44C7C0E521CB98FB00146C02 /* NSDictionary+ZLHttpDataProcess.m in Sources */,
+				44C7C0DE21CB959200146C02 /* ZLHTTPFileModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44C7C0C921CB938400146C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C7C0CA21CB938400146C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44C7C0CE21CB938600146C02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C7C0CF21CB938600146C02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44C7C0D421CB938600146C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44C7C0D521CB938600146C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C7C0D721CB938600146C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D83D2287FF0F7D53600B60 /* Pods-HTTPSessionManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7G4UNBP52;
+				INFOPLIST_FILE = HTTPSessionManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaolei.HTTPSessionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		44C7C0D821CB938600146C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2072CEEEECFE7CD269F2154 /* Pods-HTTPSessionManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7G4UNBP52;
+				INFOPLIST_FILE = HTTPSessionManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaolei.HTTPSessionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C7C0BB21CB938400146C02 /* Build configuration list for PBXProject "HTTPSessionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C7C0D421CB938600146C02 /* Debug */,
+				44C7C0D521CB938600146C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C7C0D621CB938600146C02 /* Build configuration list for PBXNativeTarget "HTTPSessionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C7C0D721CB938600146C02 /* Debug */,
+				44C7C0D821CB938600146C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C7C0B821CB938400146C02 /* Project object */;
+}

@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+target "HTTPSessionManager" do
+    
+#平台
+
+#公有库
+pod 'AFNetworking', '~> 3.2.1'
+
+#私有库
+
+
+end
