@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files  = "HTTPSessionManager/Library/*.{h,m}"
   s.exclude_files = ""
 
-  s.framework  = "UIKit"
-  s.dependency "AFNetworking", "~> 3.2.1"
+  s.framework  = "UIKit","Foundation"
+  s.dependency = "AFNetworking", "~> 3.2.1"
 
 end
